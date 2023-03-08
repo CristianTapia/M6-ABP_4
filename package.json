@@ -5,5 +5,14 @@
     "fs": "^0.0.1-security",
     "hbs": "^4.2.0",
     "nodemon": "^2.0.21"
-  }
+  },
+  "name": "m6-abp_4",
+  "description": "M6-ABP4",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

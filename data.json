@@ -1,16 +1,22 @@
 {
   "almuerzos": [
     { 
-        "nombre": "cazuela", 
-        "precio": 5990 
+        "nombre": "Cazuela", 
+        "descripcion": "Cazuela de vacuno con especias",
+        "precio": 5990, 
+        "foto": "http://3.bp.blogspot.com/_cz_5IvJcA4I/SDXqAUBuH2I/AAAAAAAACZ4/OSdGdz3vUsA/s400/cazueladevacuno+2+folkloreando.jpg"
     },
     { 
-        "nombre": "carbonada", 
-        "precio": 4990 
+        "nombre": "Carbonada",
+        "descripcion": "Carbonada con especias",
+        "precio": 4990,
+        "foto": "https://img.freepik.com/fotos-premium/sopa-verduras-aislado-sobre-fondo-blanco_488220-4112.jpg"
     },
     { 
-        "nombre": "arroz", 
-        "precio": 1000 
+        "nombre": "Arroz",
+        "descripcion": "Arroz graneado con especias",
+        "precio": 1000,
+        "foto": "https://thumbs.dreamstime.com/b/arroz-con-fondo-blanco-fotografiado-desde-un-%C3%A1ngulo-182940990.jpg"
     }
   ]
 }

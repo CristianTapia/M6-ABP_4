@@ -1,8 +1,26 @@
-<ul>
-  {{#each dataCard}}
-    <li>
-      <h3>{{this.nombre}}</h3>
-      <p>{{this.precio}}</p>
-    </li>
-  {{/each}}
-</ul>
+{{#each dataCard}}
+<!-- Product 1 -->
+	<div class="grid-container">
+		<!-- Picture box -->
+		<div class="item1">
+			<img class="product-img" src="{{this.foto}}">
+		</div>
+		<!-- Product info box -->
+		<div class="item2">
+			<!-- Title -->
+			<h1 class="product-title resp-txt"><b>{{this.nombre}}</b></h1>
+      <p class="resp-txt">{{this.descripcion}}</p>
+		</div>
+		<!-- Price | More info | Add to command box-->
+		<div class="item3">
+			<!-- Price -->
+			<div class="precio resp-txt">${{this.precio}} </div>
+			<!-- More info modal box -->
+			<div><i class="fa-solid fa-circle-info" id="modal-btn"></i></div>
+			<!-- Add to command product -->
+			<div class="dropdown-container">
+				<i class="fa-solid fa-cart-plus dropbtn"></i>
+			</div>	
+		</div>
+	</div>
+{{/each}}
